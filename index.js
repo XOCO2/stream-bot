@@ -182,4 +182,5 @@ streamer.client.on("messageCreate", async (message) => {
   }
 });
 
-streamer.client.login("MTEwMDE0OTU4MDY1MTMxOTMwNg.GBTxRx.86NUtTLYAyXCl6042Zx-nT9zFMjuLv6qq4fwDw");
+streamer.client.login(process.env.TOKEN);
+
