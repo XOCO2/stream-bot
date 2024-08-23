@@ -9,7 +9,7 @@ const {
   Streamer,
 } = require("@dank074/discord-video-stream");
 const ytstream = require("yt-stream");
-require("dotenv/config");
+
 const fs = require("fs");
 const streamer = new Streamer(new Client());
 const ytdl = require("ytdl-core");
